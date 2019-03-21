@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <AssemblyVersion>1.0.19079.2300</AssemblyVersion>
-    <FileVersion>1.0.19079.2300</FileVersion>
+    <AssemblyVersion>1.0.19080.1014</AssemblyVersion>
+    <FileVersion>1.0.19080.1014</FileVersion>
     <UserSecretsId>8c68e689-7949-42c7-bac1-02591a3fa665</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
@@ -15,6 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.2" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
   </ItemGroup>
 
 </Project>
